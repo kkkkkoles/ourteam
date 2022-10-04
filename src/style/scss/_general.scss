@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: $base-font-size;
+    color: $dark-grey;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 66px;
+    color: $gold;
+    margin: 0 0 40px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 66px;
+    color: $grey;
+    margin: 0 0 30px;
+}
+
+p {
+    margin: 0 0 20px;
+}

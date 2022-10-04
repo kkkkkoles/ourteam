@@ -1,0 +1,35 @@
+.our-team-section {
+        padding: 121px 135px;
+    
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 15px;
+    }
+}
+
+.hero-text {
+        @include flex(center, center);
+        width: 450px;
+        height: 157px;
+
+    .pseudo-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding: 0 0 15px;
+        color: $light-grey;
+    }
+
+    .icon-fire {
+        color: $gold;
+        width: 20px;
+        height: 20px;
+    }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
